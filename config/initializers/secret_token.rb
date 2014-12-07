@@ -1,0 +1,1 @@
+RailsProject::Application.config.secret_token = "2bfd34cfc5c1396a2ce445368e1677e9b08578547494c560951e68becba442c5c366b5bbd16d44f60df5f8494ccf0538300026c12a0f7ca824ad5642f9f65b44"
