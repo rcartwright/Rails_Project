@@ -29,6 +29,7 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     arel (3.0.3)
+    bootstrap-sass (2.1.0.0)
     builder (3.0.4)
     capybara (1.1.2)
       mime-types (>= 1.16)
@@ -132,6 +133,8 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    turbolinks (2.5.2)
+      coffee-rails
     tzinfo (0.3.42)
     uglifier (1.2.3)
       execjs (>= 0.3.0)
@@ -144,6 +147,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  bootstrap-sass (= 2.1)
   capybara (= 1.1.2)
   coffee-rails (= 3.2.2)
   jquery-rails (= 2.0.2)
@@ -153,4 +157,5 @@ DEPENDENCIES
   rspec-rails (= 2.11.0)
   sass-rails (= 3.2.5)
   sqlite3
+  turbolinks
   uglifier (= 1.2.3)
