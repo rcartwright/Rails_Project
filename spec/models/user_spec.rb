@@ -89,8 +89,6 @@ describe "when password confirmation is nil" do
   it { should_not be_valid }
 end
 
-
-
   describe "with a password that's too short" do
     before { @user.password = @user.password_confirmation = "a" * 5 }
     it { should be_invalid }
@@ -111,4 +109,9 @@ describe "return value of authenticate method" do
     specify { user_for_invalid_password.should be_false }
   end
 end
+
+  describe "remember token" do
+    before { @user.save }
+    its(:remember_token) { should_not be_blank }
+  end
 end
